@@ -3,7 +3,7 @@ WITH num, num2 AS INTEGER
 IN 
 num = 2 
 num2 = 4
-UNTIL num = num2 
-REPEAT num = num + 1
-ENDLOOP
+IF num = num2
+THEN num = (num + 3)
+ENDIF
 END 
